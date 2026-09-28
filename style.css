@@ -18,13 +18,13 @@
 }
 
 /* List items in the navigation bar */
-.navbar li {
+.navbar ul li {
   display: inline;
   margin: 0 1em;
 }
 
 /* Anchor tags within the list items */
-.navbar li a {
+.navbar ul li a {
   color: #fff;
 }
 
@@ -89,13 +89,12 @@
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Hover transformation (from Rubric Step 7) */
+/* Hover transformation */
 .portfolio-item:hover {
   transform: scale(1.05);
 }
-.portfolio-item:hover {
-  transform: scale(1.05);
-}
+
+/* Footer styling */
 #footer {
   background-color: #222;
   color: #fff;
